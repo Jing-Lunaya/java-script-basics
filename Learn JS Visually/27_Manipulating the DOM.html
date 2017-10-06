@@ -1,0 +1,35 @@
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Manipulating the DOM</title>
+</head>
+<body>
+
+    <h1>What JS can do?</h1>
+
+    <!-- Example 1 -->
+    <p id="demo">JS can change HTML content.</p>
+
+    <button type="button"
+    onclick="document.getElementById('demo').innerHTML='Hello Java script!'">
+    Click me!</button>
+
+    <!-- Example 2 -->
+    <p id="demo2">Hello HTML!</p>
+
+    <script>
+        document.getElementById("demo2").innerHTML="Hello again JavaScript!";
+    </script>
+
+    <!-- Exercise -->
+
+    <h1 id="hdr">Hello Exercise!</h1>
+    <h2>Header tag</h2>
+    <p id="cls">Paragraph 2</p>
+
+    <script>
+        document.getElementById("cls").innerHTML="something else";
+    </script>
+
+</body>
+</html>
